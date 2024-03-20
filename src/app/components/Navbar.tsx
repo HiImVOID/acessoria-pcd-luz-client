@@ -1,4 +1,4 @@
-'use client'
+
 
 import { useNavbarContext } from '@/context/NavbarMenu.context'
 import Link from 'next/link'
