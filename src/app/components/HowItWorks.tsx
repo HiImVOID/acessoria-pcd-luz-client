@@ -7,7 +7,7 @@ export default function HowItWorks() {
 				Lorem ipsum dolor sit amet consectetur adipisicing elit.
 			</div>
 			<div className='flex flex-col md:flex-row gap-4'>
-				<div className='flex flex-col gap-4 justify-center items-center p-2 w-1/3'>
+				<div className='flex flex-col gap-4 justify-center items-center p-2 md:w-1/3'>
 					<Image
 						className='rounded-md'
 						src={'/Assets/táxi-bg.jpeg'}
@@ -27,7 +27,7 @@ export default function HowItWorks() {
 						Ver mais
 					</button>
 				</div>
-				<div className='flex flex-col gap-4 justify-center items-center p-2 w-1/3'>
+				<div className='flex flex-col gap-4 justify-center items-center p-2 md:w-1/3'>
 					<Image
 						className='rounded-md'
 						src={'/Assets/táxi-bg.jpeg'}
@@ -47,7 +47,7 @@ export default function HowItWorks() {
 						Ver mais
 					</button>
 				</div>
-				<div className='flex flex-col gap-4 justify-center items-center p-2 w-1/3'>
+				<div className='flex flex-col gap-4 justify-center items-center p-2 md:w-1/3'>
 					<Image
 						className='rounded-md'
 						src={'/Assets/táxi-bg.jpeg'}

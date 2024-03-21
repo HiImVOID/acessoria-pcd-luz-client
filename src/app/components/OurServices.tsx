@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function OurServices() {
 	return (
-		<section className='flex flex-col items-center justify-between md:flex-row h-screen p-10'>
-			<div className='flex w-3/5'>
+		<section className='flex flex-col-reverse items-center justify-between md:flex-row h-screen p-10 gap-4'>
+			<div className='flex md:w-3/5'>
 				<Image
 					src='/Assets/táxi-bg.jpeg'
 					width={800}
@@ -11,7 +11,7 @@ export default function OurServices() {
 					alt='Táxi'
 				/>
 			</div>
-			<div className='flex flex-col gap-4 justify-center items-center p- w-1/3'>
+			<div className='flex flex-col gap-4 justify-center items-center p- md:w-1/3'>
 				<div className='flex flex-col gap-4'>
 					<h5 className='text-xl font-bold'>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
