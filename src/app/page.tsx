@@ -9,6 +9,8 @@ import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 
+/* Random Comento to make a New Commit/Deploy */
+
 export default function Home() {
 	return (
 		<main className='flex flex-col min-h-screen items-center justify-center bg-slate-100 text-black'>
