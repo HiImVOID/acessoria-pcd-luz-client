@@ -1,13 +1,17 @@
+'use client'
 
-
-import { useNavbarContext } from '@/context/NavbarMenu.context'
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '@/../public/Assets/táxi-bg.jpeg'
 import { List, X } from '@phosphor-icons/react'
+import { useState } from 'react'
 
 export default function Navbar() {
-	const { isNavbarOpen, setIsNavbarOpen, toggleNavbar } = useNavbarContext()
+	const [ isNavbarOpen, setIsNavbarOpen ] = useState<boolean>(false)
+
+	function toggleNavbar() {
+		setIsNavbarOpen(!isNavbarOpen)
+	}
 
 	return (
 		<>
@@ -15,14 +19,14 @@ export default function Navbar() {
 				<div className='sticky top-0 z-50'>
 					<div
 						className='fixed h-full inset-0 bg-slate-600/50 backdrop-blur-sm flex w-screen '
-						onClick={toggleNavbar}>
+						onClick={() => toggleNavbar}>
 						<div className='w-full' />
 						<div className=' px-1 relative  h-full w-full bg-indigo-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10'>
 							<ul className='flex flex-col sticky  whitespace-nowrap p-2 '>
 								<li>
 									<button
 										className='items-end  justify-end flex w-full'
-										onClick={() => toggleNavbar()}>
+										onClick={() => toggleNavbar}>
 										<X
 											size={36}
 											color='#fff'
@@ -88,7 +92,7 @@ export default function Navbar() {
 
 						<button
 							className='flex md:hidden'
-							onClick={() => toggleNavbar()}>
+							onClick={() => toggleNavbar}>
 							<List
 								size={36}
 								color='#fff'

@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 export default function OurServices() {
 	return (
-		<section className='flex flex-col items-center justify-center md:flex-row h-screen'>
-			<div className='flex w-1/2'>
+		<section className='flex flex-col items-center justify-between md:flex-row h-screen p-10'>
+			<div className='flex w-3/5'>
 				<Image
 					src='/Assets/táxi-bg.jpeg'
-					width={600}
-					height={600}
+					width={800}
+					height={800}
 					alt='Táxi'
 				/>
 			</div>

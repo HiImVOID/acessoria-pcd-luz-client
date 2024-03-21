@@ -7,10 +7,11 @@ import OurServices from './components/OurServices'
 import CallToAction from './components/CallToAction'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
+import Contact from './components/Contact'
 
 export default function Home() {
 	return (
-		<main className='flex flex-col min-h-screen items-center justify-center'>
+		<main className='flex flex-col min-h-screen items-center justify-center bg-slate-100 text-black'>
 			<Navbar />
       <Banner />
       <Benefits />
@@ -19,6 +20,7 @@ export default function Home() {
       <CallToAction />
       <Testimonials />
       <FAQ />
+      <Contact />
 		</main>
 	)
 }

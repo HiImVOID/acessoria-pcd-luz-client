@@ -1,7 +1,7 @@
 export default function CallToAction() {
 	return (
 		<>
-			<section className='flex flex-col md:flex-row gap-4 h-64'>
+			<section className='flex flex-col md:flex-row gap-4 h-64 p-10'>
 				<div className='text-lg font-bold flex'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				</div>

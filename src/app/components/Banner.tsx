@@ -6,9 +6,7 @@ export default function Banner() {
 					<div className='flex text-2xl font-bold text-black'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Exercitationem necessitatibus quia eius harum sequi
-						molestiae quisquam reiciendis, asperiores odit
-						voluptatem magnam minus accusamus eum nam quis dolorum
-						voluptatibus cupiditate deleniti?
+						molestiae quisquam reiciendis
 					</div>
 					<div className=' flex text-xl font-medium text-black'>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
