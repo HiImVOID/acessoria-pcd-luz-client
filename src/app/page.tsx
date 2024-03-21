@@ -9,7 +9,7 @@ import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 
-/* Random Comento to make a New Commit/Deploy */
+/* Random Comento to make a New Commit/Deploy     */
 
 export default function Home() {
 	return (
