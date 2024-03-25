@@ -11,6 +11,7 @@ export default function Navbar() {
 
 	function toggleNavbar() {
 		setIsNavbarOpen(!isNavbarOpen)
+		console.log(isNavbarOpen)
 	}
 
 	return (

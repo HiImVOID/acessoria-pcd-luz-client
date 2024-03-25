@@ -1,8 +1,8 @@
 export default function Contact() {
 	return (
 		<section className='flex flex-col  w-full p-10 gap-10  justify-center'>
-			<div className="flex flex-col gap-3">
-				<div className="font-bold text-2xl">Informações de Contato</div>
+			<div className='flex flex-col gap-3'>
+				<div className='font-bold text-2xl'>Informações de Contato</div>
 				<div>
 					Ainda tem dúvidas ou precisa de ajuda? Nós estamos aqui para
 					ajudar!
@@ -21,7 +21,9 @@ export default function Contact() {
 							<path d='M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z'></path>
 						</svg>
 						<div className='font-bold'>Email</div>
-						<div className='font-light'>email@example.com</div>
+						<div className='font-light'>
+							acessoriapcdluz@gmail.com
+						</div>
 					</div>
 					<div className='flex flex-col gap-2'>
 						<svg
@@ -35,7 +37,9 @@ export default function Contact() {
 						</svg>
 
 						<div className='font-bold'>Cel </div>
-						<div className='font-light'>11 9 9999-9999</div>
+						<div className='font-light'>
+							(11) 97340-2508 / (11) 93048-6747
+						</div>
 					</div>
 
 					<div className='flex flex-col gap-2'>
@@ -59,7 +63,8 @@ export default function Contact() {
 						src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5814244970525!2d-46.6334101!3d-23.5834722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5981b49a4c03%3A0xae3e04f65b5a7e94!2sR.%20Amaral%2C%2024%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004110-010!5e0!3m2!1spt-BR!2sbr!4v1711028660364!5m2!1spt-BR!2sbr'
 						width='600'
 						height='450'
-						loading='lazy' />
+						loading='lazy'
+					/>
 				</div>
 			</div>
 		</section>

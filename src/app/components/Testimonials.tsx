@@ -8,7 +8,7 @@ export default function Testimonials() {
 				<div>Veja o que nossos clientes acham do nosso trabalho</div>
 			</div>
 			<div className='flex flex-col md:flex-row justify-between gap-4'>
-				<div className='flex flex-col gap-4'>
+				<div className='flex flex-col gap-4 md:w-1/2'>
 					<div className='flex gap-2 items-center'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -52,25 +52,27 @@ export default function Testimonials() {
 						</svg>
 					</div>
 					<div>
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit.
+						Eles não apenas me ajudaram, mas também me entenderam,
+						oferecendo um suporte gentil e acolhedor. Agora, posso
+						focar em viver plenamente, sem preocupações extras.
+						Recomendo com todo meu coração
 					</div>
 					<div className='flex gap-3'>
 						<Image
-							src='/Assets/táxi-bg.jpeg'
-							layout='cover'
-							width={50}
-							height={50}
+							src='/Assets/7.avif'
+							
+							width={40}
+							height={40}
 							alt='Táxi'
-							className='flex rounded-full'
+							className='flex rounded-full justify-center items-center'
 						/>
 						<div className='flex flex-row gap-2 divide-x-2 p-2'>
-							<div className='p-2'>Name</div>
-							<div className='p-2'>Status</div>
+							<div className='p-2'>Maria Melia</div>
+							<div className='p-2'>PcD - Membros inferiores.</div>
 						</div>
 					</div>
 				</div>
-				<div className='flex flex-col gap-4'>
+				<div className='flex flex-col gap-4 md:w-1/2'>
 					<div className='flex gap-2 items-center'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -114,21 +116,25 @@ export default function Testimonials() {
 						</svg>
 					</div>
 					<div>
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit.
+						Como taxista, sempre me estressei com a burocracia. Mas
+						o serviço de transferência de alvará de estacionamento
+						de táxi tornou tudo tão simples. Fui ajudado em todos os
+						passos e retomei minhas operações rapidamente. Estou
+						muito satisfeito e definitivamente indicarei aos meus
+						colegas.
 					</div>
 					<div className='flex gap-3'>
 						<Image
-							src='/Assets/táxi-bg.jpeg'
+							src='/Assets/8.avif'
 							layout='cover'
-							width={50}
-							height={50}
+							width={60}
+							height={60}
 							alt='Táxi'
 							className='flex rounded-full'
 						/>
 						<div className='flex flex-row gap-2 divide-x-2 p-2'>
-							<div className='p-2'>Name</div>
-							<div className='p-2'>Status</div>
+							<div className='p-2'>Adalberto</div>
+							<div className='p-2'>Taxista.</div>
 						</div>
 					</div>
 				</div>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Whatsapp from './components/WhatsApp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
 				<div className='container flex flex-col self-center h-full w-full '>
 					{children}
 				</div>
+				<Whatsapp />
 			</body>
 		</html>
 	)

@@ -322,7 +322,7 @@ export default function FAQ() {
 
 				<div className=' flex flex-col gap-3'>
 					<div className='text-2xl font-bold'>Ainda tem dúvidas?</div>
-					<div className='font-light'>Entre em contato conosco</div>
+					<div className='font-light'>Entre em contato conosco agora mesmo para exclarecermos tudo!</div>
 					<button className='bg-slate-900 text-slate-100 py-2 px-3 border-slate-100 border max-w-max'>
 						Contato
 					</button>
