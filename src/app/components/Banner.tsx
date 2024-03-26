@@ -8,7 +8,7 @@ export default function Banner() {
 						& PcD
 					</h1>
 					<h2 className=' flex text-xl font-medium text-black'>
-						Com mais de X anos de experiencia, facilitamos todos a burocracia dos
+						Com mais de 9 anos de experiencia, facilitamos todos a burocracia dos
 						processos de documentaçãos fiscais e isenções, cartões de estacionamento e rodizio.
 					</h2>
 					<div className='flex gap-3'>
