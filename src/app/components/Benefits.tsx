@@ -24,7 +24,7 @@ export default function Benefits() {
 			</div>
 			<div className='flex md:w-1/2 items-center justify-center'>
 				<Image
-					className='rounded-md'
+					className='rounded-md flex'
 					src={'/Assets/4.jpg'}
 					width={300}
 					height={300}

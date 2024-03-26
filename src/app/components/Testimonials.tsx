@@ -126,7 +126,7 @@ export default function Testimonials() {
 					<div className='flex gap-3'>
 						<Image
 							src='/Assets/8.avif'
-							layout='cover'
+							
 							width={60}
 							height={60}
 							alt='Táxi'
