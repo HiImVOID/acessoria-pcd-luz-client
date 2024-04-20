@@ -11,14 +11,7 @@ export default function Banner() {
 						Com mais de 9 anos de experiencia, facilitamos todos a burocracia dos
 						processos de documentaçãos fiscais e isenções, cartões de estacionamento e rodizio.
 					</h2>
-					<div className='flex gap-3'>
-						<button className='bg-slate-900 text-slate-100 py-2 px-3 border-slate-100 border'>
-							Ver mais
-						</button>
-						<button className='bg-slate-900 text-slate-100 py-2 px-3 border-slate-100 border'>
-							Ver mais
-						</button>
-					</div>
+					
 				</div>
 			</section>
 		</>

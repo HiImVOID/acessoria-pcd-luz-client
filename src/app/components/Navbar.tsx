@@ -38,14 +38,12 @@ export default function Navbar() {
 									<Link href='/'>Inicio</Link>
 								</li>
 								<li className='py-5 pl-3 hover:bg-zinc-900 rounded-md '>
-									<Link href='/servicos'>Serviços</Link>
+									<Link href='#services'>Serviços</Link>
 								</li>
 								<li className='py-5 pl-3 hover:bg-zinc-900 rounded-md '>
-									<Link href='/contato'>Contato</Link>
+									<Link href='#contact'>Contato</Link>
 								</li>
-								<li className='py-5 pl-3 hover:bg-zinc-900 rounded-md '>
-									<Link href='/sobre'>Sobre</Link>
-								</li>
+								
 
 								<hr className='my-3' />
 							</ul>
@@ -73,21 +71,17 @@ export default function Navbar() {
 										Inicio
 									</li>
 								</Link>
-								<Link href={'/servicos'}>
+								<Link href='#services'>
 									<li className=' px-3 py-2 rounded-xl'>
 										Serviços
 									</li>
 								</Link>
-								<Link href={'/contato'}>
+								<Link href='#contact'>
 									<li className=' px-3 py-2 rounded-xl'>
 										Contato
 									</li>
 								</Link>
-								<Link href={'/sobre'}>
-									<li className=' px-3 py-2 rounded-xl'>
-										Sobre
-									</li>
-								</Link>
+								
 							</ul>
 						</nav>
 

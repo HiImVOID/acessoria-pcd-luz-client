@@ -1,6 +1,6 @@
 export default function Contact() {
 	return (
-		<section className='flex flex-col  w-full p-10 gap-10  justify-center'>
+		<section className='flex flex-col  w-full p-10 gap-10  justify-center' id='contact'>
 			<div className='flex flex-col gap-3'>
 				<div className='font-bold text-2xl'>Informações de Contato</div>
 				<div>

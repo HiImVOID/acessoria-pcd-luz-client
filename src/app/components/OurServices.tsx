@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function OurServices() {
 	return (
-		<section className='flex flex-col md:flex-row  px-10 gap-4'>
+		<section className='flex flex-col md:flex-row  px-10 gap-4' >
 			<div className='flex md:w-3/5'>
 				<Image
 				className=' flex'

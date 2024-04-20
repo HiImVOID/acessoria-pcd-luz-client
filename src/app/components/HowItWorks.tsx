@@ -2,7 +2,9 @@ import Image from 'next/image'
 
 export default function HowItWorks() {
 	return (
-		<div className='flex flex-col gap-4 justify-center min-h-max p-10 items-center'>
+		<div
+			className='flex flex-col gap-4 justify-center min-h-max p-10 items-center'
+			id='services'>
 			<h3 className='text-2xl font-bold'>
 				Como funciona o nosso serviço?
 			</h3>

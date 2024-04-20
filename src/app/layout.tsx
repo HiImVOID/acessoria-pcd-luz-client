@@ -25,7 +25,7 @@ export default function RootLayout({
 				<div className='container flex flex-col self-center h-full w-full '>
 					{children}
 				</div>
-				
+				<Whatsapp />
 			</body>
 		</html>
 	)

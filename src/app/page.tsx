@@ -8,6 +8,7 @@ import CallToAction from './components/CallToAction'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 /* Random Comento to make a New Commit/Deploy     */
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Testimonials />
       {/* <FAQ /> */}
       <Contact />
+      <Footer />
 		</main>
 	)
 }
